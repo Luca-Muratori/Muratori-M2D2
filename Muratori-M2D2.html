@@ -51,10 +51,105 @@ HINT: Manage your time in order to finish the structure and responsiveness befor
             create CSS rules to style them if needed
             ...to make sure every Album component looks the same.
          */
+         .card {
+                position: relative;
+                display: -ms-flexbox;
+                display: flex;
+                -ms-flex-direction: column;
+                flex-direction: column;
+                min-width: 0;
+                word-wrap: break-word;
+                background-color: #fff;
+                background-clip: border-box;
+                border: 1px solid rgba(0,0,0,.125);
+                border-radius: 0.25rem;
+            }
+
+            img {
+                overflow: hidden;
+                vertical-align: middle;
+            }
+
+            img p{
+                 display: block;
+                 margin-block-start: 1em;
+                 margin-block-end: 1em;
+                 margin-inline-start: 0px;
+                 margin-inline-end: 0px;    
+                }
+            .albumTitle{
+                font-size:10px;
+                color:red;
+
+            }
+
+            .albumGroup{
+                font-size: 5px;
+                color: blue;
+            }
+
+            .albumGenre{
+                font-size:5px;
+                }
+
+            .albumDuration{
+                font-size: 5px;
+            }
+
+            
     </style>
 </head>
 
 <body>
+    <div class="card" style="width: 18rem;">
+        <img src="..." class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+          <p class='albumTitle'>1</p>
+          <p class='albumGroup'>1</p>
+          <p class='albumGenre'>1</p>
+          <p class='albumDuration'>1</p>
+    </div>
+    <div class="card" style="width: 18rem;">
+        <img src="..." class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+          <p class='albumTitle'>1</p>
+          <p class='albumGroup'>1</p>
+          <p class='albumGenre'>1</p>
+          <p class='albumDuration'>1</p>
+    </div>
+    <div class="card" style="width: 18rem;">
+        <img src="..." class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+          <p class='albumTitle'>1</p>
+          <p class='albumGroup'>1</p>
+          <p class='albumGenre'>1</p>
+          <p class='albumDuration'>1</p>
+    </div>
+    <div class="card" style="width: 18rem;">
+        <img src="..." class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+          <p class='albumTitle'>1</p>
+          <p class='albumGroup'>1</p>
+          <p class='albumGenre'>1</p>
+          <p class='albumDuration'>1</p>
+    </div>
+      
+
+
+
+
     <!-- EXERCISE 2 
             Implement a navigation bar using the bootstrap component
             This navigation bar must link every section in your page.
@@ -118,12 +213,12 @@ HINT: Manage your time in order to finish the structure and responsiveness befor
             counts the albums and applies the number in the area of the footer you've previously decided.
         -->
 
-<script src="mandatoryExerciseMuratoriM2D2.js">
+<!--<script src="mandatoryExerciseMuratoriM2D2.js">
     window.onload=function(){
         makeList()
     }
 
 
-</script>
+</script>-->
 </body>
 </html>
