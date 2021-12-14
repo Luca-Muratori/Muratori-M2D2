@@ -7,3 +7,36 @@
     6) Append the unordered list in the document. The list should appear in the page.
 */
 
+
+
+
+
+
+
+function makeList() {
+   const genres=["Comedy", "Drama", "Romance", "Horror", "Sci-Fi", "Documentary"]
+    // Make a container element for the list
+    listContainer = document.createElement('div'),
+    // Make the list
+    listElement = document.createElement('ul'),
+    // Set up a loop that goes through the items in listItems one at a time
+    
+
+    // Add it to the page
+    document.getElementsByTagName('body')[0].appendChild(listContainer);
+    listContainer.appendChild(listElement);
+
+    for (i = 0; i < genres.length; ++i) {
+        // create an item for each one
+        listItem = document.createElement('li');
+
+        // Add the item text
+        listItem.innerHTML = genres[i];
+
+        // Add listItem to the listElement
+        listElement.appendChild(listItem);
+    }
+}
+
+// Usage
+makeList();
